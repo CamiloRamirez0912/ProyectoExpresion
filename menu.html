@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="CSS/menuStyles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="images/Logo.jpg" alt="Logo del restaurante" class="logo">
+        </div>
+        <div class="header-center">
+            <form>
+                <div class="search">
+                    <span class="search-icon material-symbols-outlined">search</span>
+                    <input class="search-input" type="search" placeholder="Buscar">
+                </div>
+            </form>
+            <div class="menu">
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="images/menu.png" class="menu-icon" alt="">
+                </label>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="menu.html">Menú</a></li>
+                        <li><a href="#">Galería</a></li>
+                        <li><a href="#">Califícanos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="header-buttons">
+                <button class="header-btn"><img src="images/WhatsApp.webp" alt="WhatsApp"></button>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/carrito.png" class="header-btn" id="img-carrito" alt="Imagen carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <button id="vaciar-carrito" class="btn-vaciar">vaciar carrito</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="menu-grid">
+            <div class="menuImg"> <a href="burguers.html"><img src="images/burguer.jpg" alt="Hamburguesa"> Hamburguesa</a> </div>
+            <div class="menuImg"> <a href="pizzas.html"><img src="images/pizza.jpg" alt="Pizza"> Pizza</a> </div>
+            <div class="menuImg"> <a href="sushis.html"><img src="images/sushi.jpg" alt="Sushi"> Sushi</a> </div>
+            <div class="menuImg"> <a href="#"><img src="images/wings.jpg" alt="Alitas"> Alitas</a> </div>
+            <div class="menuImg"> <a href="#"><img src="images/drinks.jpg" alt="Bebidas"> Bebidas</a> </div>
+            <div class="menuImg"> <a href="#"><img src="images/dessert.jpg" alt="Postres"> Postres</a> </div>
+        </div>
+    </main>
+    <footer>
+        <p>Dirección del Restaurante: Calle Ejemplo 123, Tunja, Colombia</p>
+        <p>® 2024 Restaurante Ejemplo. Todos los derechos reservados.</p>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>

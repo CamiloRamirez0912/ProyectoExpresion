@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aton&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <img src="images/Logo.jpg" alt="Logo del restaurante" class="logo">
+        </div>
+        <div class="header-center">
+            <form>
+                <div class="search">
+                    <span class="search-icon material-symbols-outlined">search</span>
+                    <input class="search-input" type="search" placeholder="Buscar">
+                </div>
+            </form>
+            <div class="menu">
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="images/menu.png" class="menu-icon" alt="">
+                </label>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="menu.html">Menú</a></li>
+                        <li><a href="#">Galería</a></li>
+                        <li><a href="#">Califícanos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="header-buttons">
+                <button class="header-btn"><img src="images/WhatsApp.webp" alt="WhatsApp"></button>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/carrito.png" class="header-btn" id="img-carrito" alt="Imagen carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <button id="vaciar-carrito" class="btn-vaciar">vaciar carrito</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <img src="images/banner.jpg" alt="Imagen banner">
+        <div class="main-text">
+            <h1>Tu comida Favorita</h1>
+            <p>Descubre el sabor que te mereces, incluso en el reloj más apretado. En nuestro restaurante, cada bocado
+                es una promesa de calidad sin compromisos y cada minuto que ahorras es un tributo a tu ritmo de vida.
+                Porque sabemos que tu tiempo es oro y tu apetito por la excelencia no conoce límites. ¡Ven y vive la
+                experiencia de una comida excepcional que se adapta a tu agenda!
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>Dirección del Restaurante: Calle Ejemplo 123, Tunja, Colombia</p>
+        <p>® 2024 Restaurante Ejemplo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
